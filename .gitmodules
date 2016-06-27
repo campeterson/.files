@@ -1,42 +1,42 @@
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
-	url = https://github.com:mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/bundle/ctrlp.vim"]
 	path = vim/bundle/ctrlp.vim
-	url = https://github.com:ctrlpvim/ctrlp.vim.git
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
-	url = https://github.com:scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
-	url = https://github.com:scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/paredit.vim"]
 	path = vim/bundle/paredit.vim
-	url = https://github.com:vim-scripts/paredit.vim.git
+	url = https://github.com/vim-scripts/paredit.vim.git
 [submodule "vim/bundle/rainbow_parentheses.vim"]
 	path = vim/bundle/rainbow_parentheses.vim
-	url = https://github.com:kien/rainbow_parentheses.vim.git
+	url = https://github.com/kien/rainbow_parentheses.vim.git
 [submodule "vim/bundle/tslime.vim"]
 	path = vim/bundle/tslime.vim
-	url = https://github.com:jgdavey/tslime.vim.git
+	url = https://github.com/jgdavey/tslime.vim.git
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
-	url = https://github.com:vim-airline/vim-airline.git
+	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim/bundle/vim-airline-themes"]
 	path = vim/bundle/vim-airline-themes
-	url = https://github.com:vim-airline/vim-airline-themes.git
+	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule "vim/bundle/vim-clojure-highlight"]
 	path = vim/bundle/vim-clojure-highlight
-	url = https://github.com:guns/vim-clojure-highlight.git
+	url = https://github.com/guns/vim-clojure-highlight.git
 [submodule "vim/bundle/vim-css-color"]
 	path = vim/bundle/vim-css-color
-	url = https://github.com:skammer/vim-css-color.git
+	url = https://github.com/skammer/vim-css-color.git
 [submodule "vim/bundle/vim-dispatch"]
 	path = vim/bundle/vim-dispatch
-	url = https://github.com:tpope/vim-dispatch.git
+	url = https://github.com/tpope/vim-dispatch.git
 [submodule "vim/bundle/vim-fireplace"]
 	path = vim/bundle/vim-fireplace
-	url = https://github.com:tpope/vim-fireplace.git
+	url = https://github.com/tpope/vim-fireplace.git
 [submodule "vim/bundle/vim-salve"]
 	path = vim/bundle/vim-salve
-	url = https://github.com:tpope/vim-salve.git
+	url = https://github.com/tpope/vim-salve.git
