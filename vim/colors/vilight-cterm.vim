@@ -10,7 +10,7 @@ let g:colors_name="vilight-cterm"
 
 hi Normal         guifg=#b6b6b6 ctermfg=249           guibg=#212121 		ctermbg=234
 hi Cursor         guifg=#212121 ctermfg=234           guibg=#9ca9b7 		ctermbg=248
-hi CursorLine	    guifg=#ffffff	ctermfg=15            guibg=#6c8095 		ctermbg=66
+hi CursorLine	    	                                  guibg=#20262c 		ctermbg=0
 hi Directory      guifg=#6c8095 ctermfg=66            guibg=NONE
 hi VertSplit      guifg=#b6b6b6 ctermfg=249           guibg=#a6a6a6 		ctermbg=248
 hi Folded         guifg=#9ca9b7 ctermfg=248           guibg=NONE        gui=italic
