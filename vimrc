@@ -42,3 +42,6 @@ nmap <C-c><C-c> <Plug>NormalModeSendToTmux
 nmap <C-c>r <Plug>SetTmuxVars
 
 colorscheme vilight-cterm
+
+" Show vim-airline status by default
+set laststatus=2
