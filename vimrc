@@ -40,8 +40,22 @@ set expandtab
 vmap <C-c><C-c> <Plug>SendSelectionToTmux
 nmap <C-c><C-c> <Plug>NormalModeSendToTmux
 nmap <C-c>r <Plug>SetTmuxVars
+let g:tslime_always_current_session = 1
+let g:tslime_always_current_window = 1
 
 colorscheme vilight-cterm
 
-" Show vim-airline status by default
+" show vim-airline status by default
 set laststatus=2
+" more vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#branch#vcs_priority = ["git", "mercurial"]
+let g:airline_powerline_fonts = 1
+let g:airline_theme='papercolor'
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+
+" tmuxline
+let g:tmuxline_powerline_separators = 0
