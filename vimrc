@@ -51,7 +51,7 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#branch#vcs_priority = ["git", "mercurial"]
 let g:airline_powerline_fonts = 1
-let g:airline_theme='papercolor'
+let g:airline_theme='lucius'
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
@@ -59,3 +59,11 @@ let g:airline_symbols.space = "\ua0"
 
 " tmuxline
 let g:tmuxline_powerline_separators = 0
+
+"Ack.vim - use The Silver Searcher
+cnoreabbrev Ack Ack!
+nnoremap <Leader>a :Ack!<Space>
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+cnoreabbrev ag Ack!
