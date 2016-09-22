@@ -10,20 +10,35 @@ let g:ctrlp_cmd= 'CtrlP'
 let mapleader = ","
 let g:mapleader = ","
 
+" Make current line visible
+set cursorline
+
+" Large history
+set history=1000
+
+" Highlight search results
+set hlsearch
+" Leader a to remove highlighted search fields
+nnoremap <leader>/ :nohlsearch<cr>
+
+" Show matches as search is typed
+set incsearch
+
+" Setting for whitespace visualization
+set list
+set listchars=trail:·,tab:\ \
+
+" Show line numbers
+set number
+
+" Show line, column, %, at bottom of window
+set ruler
+
 " Scroll 3 lines instead of 1 when cursor goes off screen
 set scrolloff=3
 
 " Current mode is displayed on bottom line
 set showmode
-
-" Make current line visible
-set cursorline
-
-" Show line, column, %, at bottom of window
-set ruler
-
-" Show line numbers
-set number
 
 " Set tabstop/shiftwidth for different files
 autocmd Filetype html setlocal ts=2 sts=2 sw=2 et
