@@ -67,3 +67,4 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 cnoreabbrev ag Ack!
+cnoreabbrev Ag Ack!
