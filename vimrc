@@ -5,6 +5,7 @@ filetype plugin indent on
 " ctrl-p plugin
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd= 'CtrlP'
+set wildignore+=*/tmp/*,*/target/*,*/compiled*
 
 " map leader key to ','
 let mapleader = ","
