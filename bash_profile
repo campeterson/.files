@@ -14,6 +14,7 @@ alias gs='git status'
 alias ga='git add -p'
 alias gps='git push'
 alias gpl='git pull --rebase'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias ll='ls -lah'
 
 # tell 'ls' to be colorful
@@ -35,3 +36,7 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export PATH="/usr/local/sbin:$PATH"
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+function title {
+  echo -ne "\033]0;"$*"\007"
+}

@@ -44,12 +44,13 @@ set showmode
 " Set tabstop/shiftwidth for different files
 autocmd Filetype html setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 et
-autocmd Filetype javascript setlocal ts=4 sts=4 sw=4 noexpandtab
+"autocmd Filetype javascript setlocal ts=4 sts=4 sw=4 noexpandtab
 autocmd Filetype python setlocal ts=8 sts=4 sw=4 et
 
 " Support .boot and .hl files
-autocmd BufNewFile,BufRead *.hl     set syntax=clojure
-autocmd BufNewFile,BufRead *.boot   set syntax=clojure
+autocmd BufNewFile,BufRead *.hl     set filetype=clojure
+autocmd BufNewFile,BufRead *.boot   set filetype=clojure
+autocmd BufNewFile,BufRead *.build  set filetype=clojure
 
 " Default tabstop/shiftwidth
 set tabstop=2
