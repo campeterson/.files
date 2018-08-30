@@ -2,9 +2,12 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set backspace=indent,eol,start
+
 " ctrl-p plugin
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd= 'CtrlP'
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 set wildignore+=*/tmp/*,*/target/*,*/compiled*
 
 " map leader key to ','
@@ -19,8 +22,13 @@ set history=1000
 
 " Highlight search results
 set hlsearch
-" Leader a to remove highlighted search fields
+" Leader / to remove highlighted search fields
 nnoremap <leader>/ :nohlsearch<cr>
+
+" Make clipboard work
+set clipboard=unnamed
+" Leader p to pbpaste from clipboard
+nnoremap <leader>p :r !pbpaste<cr>
 
 " Show matches as search is typed
 set incsearch
