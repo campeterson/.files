@@ -2,6 +2,9 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" vim-sneak
+let g:sneak#label = 1
+
 set backspace=indent,eol,start
 
 " ctrl-p plugin
